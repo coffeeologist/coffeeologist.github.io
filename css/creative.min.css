@@ -1,0 +1,75 @@
+/*!
+ * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */body,html{width:100%;height:100%}body{font-family:Merriweather,'Helvetica Neue',Arial,sans-serif}hr{max-width:50px;border-width:3px;border-color: #ffab2c}hr.light{border-color:#fff}a{color: #ffab2c;-webkit-transition:all .2s;transition:all .2s}a:hover{color:#ffab2c}h1,h2,h3,h4,h5,h6{font-family:'Open Sans','Helvetica Neue',Arial,sans-serif}.bg-primary{background-color:#ffab2c!important}.bg-dark{background-color:#4682b4!important}.text-faded{color:rgba(255,255,255)}section{padding:8rem 0}.section-heading{margin-top:0}::-moz-selection{color:#fff;background:#5e3f17;text-shadow:none}::selection{color:#fff;background:#5e3f17;text-shadow:none}img::-moz-selection{color:#fff;background:0 0}img::selection{color:#fff;background:0 0}img::-moz-selection{color:#fff;background:0 0}#mainNav{border-bottom:1px solid rgba(33,37,41,.1);background-color:#fff;font-family:'Open Sans','Helvetica Neue',Arial,sans-serif;-webkit-transition:all .2s;transition:all .2s}#mainNav .navbar-brand{font-weight:700;text-transform:uppercase;color:#ffab2c;font-family:'Open Sans','Helvetica Neue',Arial,sans-serif}#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#ffab2c}#mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{font-size:.9rem;font-weight:700;text-transform:uppercase;color:#5e3f17}#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:hover{color:#ffab2c}#mainNav .navbar-nav>li.nav-item>a.nav-link.active,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active{color:#ffab2c!important;background-color:transparent}#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover{background-color:transparent}@media (min-width:992px){#mainNav{border-color:transparent;background-color:transparent}#mainNav .navbar-brand{color:rgba(255,255,255,.7)}#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#fff}#mainNav .navbar-nav>li.nav-item>a.nav-link{padding:.5rem 1rem}#mainNav .navbar-nav>li.nav-item>a.nav-link,#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{color:rgba(255,255,255,.7)}#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav .navbar-nav>li.nav-item>a.nav-link:hover{color:#fff}#mainNav.navbar-shrink{border-bottom:1px solid rgba(33,37,41,.1);background-color:#fff}#mainNav.navbar-shrink .navbar-brand{color:#ffab2c}#mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{color:#ffab2c}#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus{color:#5e3f17}#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,#mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover{color:#ffab2c}}header.masthead{padding-top:10rem;padding-bottom:calc(10rem - 56px);background-image:url(../img/pittsburgh-day-edit2.jpg);background-position:center center;background-size:cover}header.masthead hr{margin-top:30px;margin-bottom:30px}header.masthead h1{font-size:2rem}header.masthead p{font-weight:300}@media (min-width:768px){header.masthead p{font-size:1.15rem}}@media (min-width:992px){header.masthead{height:100vh;min-height:650px;padding-top:0;padding-bottom:0}header.masthead h1{font-size:3rem}}@media (min-width:1200px){header.masthead h1{font-size:4rem}}.service-box{max-width:400px}.portfolio-box{position:relative;display:block;max-width:650px;margin:0 auto}.portfolio-box .portfolio-box-caption{position:absolute;bottom:0;display:block;width:100%;height:100%;text-align:center;opacity:0;color:#fff;background:rgba(255,171,44,.9);-webkit-transition:all .2s;transition:all .2s}.portfolio-box .portfolio-box-caption .portfolio-box-caption-content{position:absolute;top:50%;width:100%;-webkit-transform:translateY(-50%);transform:translateY(-50%);text-align:center}.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{padding:0 15px;font-family:'Open Sans','Helvetica Neue',Arial,sans-serif}.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category{font-size:14px;font-weight:600;text-transform:uppercase}.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{font-size:18px}.portfolio-box:hover .portfolio-box-caption{opacity:1}.portfolio-box:focus{outline:0}@media (min-width:768px){.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category{font-size:16px}.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name{font-size:22px}}.text-primary{color:#ffab2c!important}.btn{font-weight:700;text-transform:uppercase;border:none;border-radius:300px;font-family:'Open Sans','Helvetica Neue',Arial,sans-serif}.btn-xl{padding:1rem 2rem}.btn-primary{background-color:rgba(255, 171, 44, 0.45);border-color: rgba(119, 136, 153, 0.5)}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{color:#fff;background-color: rgba(255, 171, 44, 0.95)!important}.btn-primary:active,.btn-primary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(255,171,44,.5)!important;box-shadow:0 0 0 .2rem rgba(255,171,44,.5)!important}
+
+ 
+ /* Custom additions*/
+
+ /*Type writer effect from CSS-Tricks*/
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid #ffab2c; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .05em; /* Adjust as needed */
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret 0.75s step-end infinite;
+}
+  
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffab2c; }
+}
+
+/* Transparent button */
+.btn-clear{
+    color: #fff;
+    background-color: rgba(119, 136, 153, 0.3);
+    border-color: rgba(119, 136, 153, 0.3)
+}
+
+/* gradient */
+.container-gradient{
+    background-color: f09819;
+    background-image:
+    linear-gradient(
+        to top right,
+        #ff512f, #f09819
+    );
+}
+
+#cmu{
+    height: 80px;
+    width: 80px;
+}
+
+#mth{
+    height: 75px;
+    width: 75px;
+}
+
+#topmargin{
+    margin-top: 0.3em;
+}
+#topmargintiny{
+    margin-top: 0.4em;
+}
+
+.negativemargin2{
+    margin-top: -2em;
+}
+
+.negativemargin2bot{
+    margin-bottom: -2em;
+}
+
