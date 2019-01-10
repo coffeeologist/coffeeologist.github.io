@@ -215,7 +215,7 @@ text-align: center;
     background-image: url(../img/powermethod.JPG);
     min-height: 100px;
     width: 100%;
-    background-position: top;
+    background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
 }
