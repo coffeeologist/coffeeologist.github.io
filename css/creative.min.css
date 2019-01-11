@@ -256,3 +256,9 @@ article{
     background-position: center;
     background-size: cover;
 }
+
+.tiny{
+    width: 25%;
+    max-width: 450px;
+    height: auto;
+}
