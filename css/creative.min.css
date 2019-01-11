@@ -262,3 +262,21 @@ article{
     max-width: 450px;
     height: auto;
 }
+
+p{
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif!important;
+    font-size: 1.0rem;
+}
+
+.pbitbigger{
+    font-size: 1.05rem;
+}
+
+.pbitbig{
+    font-size: 1.1rem;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif!important
+}
+  
