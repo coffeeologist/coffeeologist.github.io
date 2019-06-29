@@ -257,6 +257,15 @@ text-align: center;
     background-size: cover;
 }
 
+.qa{
+    background-image: url(../img/nlpProject.jpg);
+    min-height: 100px;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .fa-1x-svg{
     width: 42%;
     height: auto;
