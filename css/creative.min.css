@@ -266,6 +266,15 @@ text-align: center;
     background-size: cover;
 }
 
+.nc{
+    background-image: url(../img/nc.JPG);
+    min-height: 100px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .fa-1x-svg{
     width: 42%;
     height: auto;
