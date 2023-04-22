@@ -1,14 +1,20 @@
 import dynamic from 'next/dynamic';
 import {FC, memo} from 'react';
+import { parseData, DataContext } from '@/components/DataContext';
 
-import Page from '../components/Layout/Page';
-import Block from '../components/Sections/Block';
+import Page from '../components/Page';
+import Block from '../components/Block';
+import Section from '../components/Section';
+
+const data = parseData();
 
 const Home: FC = memo(() => {
   return (
-    <Page description="Amy Liu's personal portfolio page" title="amyliu portfolio">
-      <Block />
-    </Page>
+    <DataContext.Provider value={data}>
+      <Page>
+        <Block />
+      </Page>
+    </DataContext.Provider>
   );
 });
 

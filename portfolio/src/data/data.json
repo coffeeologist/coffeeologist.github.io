@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "title": "amyliu portfolio",
+    "description": "Amy Liu personal portfolio website",
+    "faviconSource": "/src/assets/images/favicon.png"
+  },
+  "socialData": {
+    "linkedin": "http://linkedin.com/in/jiachenamyliu",
+    "github": "http://github.com/coffeeologist",
+    "email": "mailto:jiachen.amy.liu@gmail.com"
+  },
+  "skillGroups": [
+    {
+      "title": "Frontend skills",
+      "subtitle": "Like making this website form scratch",
+      "skills": [
+        {"name": "HTML", "color":"#000000"},
+        {"name": "CSS", "color":"#196124"},
+        {"name": "Javascript", "color":"#000000"}
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Lorem ipsum dolor sit amet",
+      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+      "images": [
+        { "source": "/src/assets/images/coffee.JPG"}
+      ]
+    },
+    {
+      "title": "Volupatme quia sit aspera",
+      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+      "images": [
+        { "source": "/src/assets/images/coffee.JPG"}
+      ]
+    }
+  ]
+}
