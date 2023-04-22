@@ -10,7 +10,7 @@ const Animator = dynamic(
 
 import { ScrollContainer, ScrollPage, batch, Fade, FadeIn, FadeOut, Move, MoveIn, MoveOut, Sticky, StickyIn, StickyOut, Zoom, ZoomIn, ZoomOut } from "react-scroll-motion";
 
-const Block: React.FC = React.memo(() => {
+const Block: React.FC = (() => {
   const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn());
   const FadeUp = batch(Fade(), Move(), Sticky());
   const {socialData} = React.useContext(DataContext);
@@ -19,7 +19,7 @@ const Block: React.FC = React.memo(() => {
 <ScrollContainer class="bg-blue-500 hover:bg-purple-500">
   <ScrollPage>
     <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-      <span style={{ fontSize: "30px" }}> {socialData.linkedin} pOTATO 😀</span>
+      <span style={{ fontSize: "30px" }}> {socialData.linkedin} O 😀</span>
     </Animator>
   </ScrollPage>
   <ScrollPage>

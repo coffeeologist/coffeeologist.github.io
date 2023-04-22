@@ -4,15 +4,17 @@ import { parseData, DataContext } from '@/components/DataContext';
 
 import Page from '../components/Page';
 import Block from '../components/Block';
-import Section from '../components/Section';
+import SectionSplash from '../components/SectionSplash';
+import SectionJourney from '../components/SectionJourney';
 
 const data = parseData();
 
-const Home: FC = memo(() => {
+const Home: FC = (() => {
   return (
     <DataContext.Provider value={data}>
       <Page>
-        <Block />
+        <SectionSplash />
+        <SectionJourney />
       </Page>
     </DataContext.Provider>
   );
