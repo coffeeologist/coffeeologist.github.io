@@ -9,31 +9,39 @@
     "github": "http://github.com/coffeeologist",
     "email": "mailto:jiachen.amy.liu@gmail.com"
   },
-  "skillGroups": [
-    {
+  "skillGroups": {
+    "frontend": {
       "title": "Frontend skills",
       "subtitle": "Like making this website form scratch",
       "skills": [
-        {"name": "HTML", "color":"#000000"},
-        {"name": "CSS", "color":"#196124"},
-        {"name": "Javascript", "color":"#000000"}
-      ]
-    }
-  ],
-  "sections": [
-    {
-      "title": "Lorem ipsum dolor sit amet",
-      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-      "images": [
-        { "source": "/src/assets/images/coffee.JPG"}
+        { "name": "HTML", "color": "#000000" },
+        { "name": "CSS", "color": "#196124" },
+        { "name": "Javascript", "color": "#000000" }
       ]
     },
-    {
+    "backend": {
+      "title": "Backend languages",
+      "subtitle": "Always down to learn more",
+      "skills": [
+        { "name": "Java", "color": "#000000" },
+        { "name": "C", "color": "#196124" },
+        { "name": "Ruby", "color": "#000000" }
+      ]
+    }
+  },
+  "sections": {
+    "splash": {
+      "title": "Lorem ipsum dolor sit amet",
+      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+      "images": [{ "source": "/images/journey-b.png" }]
+    },
+    "journey": {
       "title": "Volupatme quia sit aspera",
       "subtitle": "quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
       "images": [
-        { "source": "/src/assets/images/coffee.JPG"}
+        { "source": "/images/journey-a.png" },
+        { "source": "/images/journey-b.png" }
       ]
     }
-  ]
+  }
 }

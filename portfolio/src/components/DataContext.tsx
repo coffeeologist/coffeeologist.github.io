@@ -1,9 +1,9 @@
-import * as React from "react";
-import type { Data } from "@/data/types";
-import dataJson from '@/data/data.json';
+import * as React from 'react'
+import type { Data } from '@/data/types'
+import dataJson from '@/data/data.json'
 
 export const parseData = () => {
-  return dataJson as Data;
+  return dataJson as Data
 }
 
 const defaultData: Data = {
@@ -15,10 +15,11 @@ const defaultData: Data = {
   socialData: {
     linkedin: '',
     github: '',
-    email: ''
+    email: '',
   },
-  skillGroups: [],
-  sections: []
+  skillGroups: {},
+  sections: {},
 }
 
-export const DataContext: React.Context<Data> = React.createContext<Data>(defaultData);
+export const DataContext: React.Context<Data> =
+  React.createContext<Data>(defaultData)

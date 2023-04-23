@@ -1,23 +1,15 @@
-import dynamic from 'next/dynamic';
-import {FC, memo} from 'react';
-import { parseData, DataContext } from '@/components/DataContext';
+import { parseData, DataContext } from '@/components/DataContext'
 
-import Page from '../components/Page';
-import Block from '../components/Block';
-import SectionSplash from '../components/SectionSplash';
-import SectionJourney from '../components/SectionJourney';
+import Portfolio from '@/components/Portfolio'
 
-const data = parseData();
+const data = parseData()
 
-const Home: FC = (() => {
+const Home = () => {
   return (
     <DataContext.Provider value={data}>
-      <Page>
-        <SectionSplash />
-        <SectionJourney />
-      </Page>
+      <Portfolio />
     </DataContext.Provider>
-  );
-});
+  )
+}
 
-export default Home;
+export default Home
