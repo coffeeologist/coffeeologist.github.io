@@ -1,11 +1,5 @@
-import { ScrollContainer } from 'react-scroll-motion'
-
 const Page = ({ children }) => {
-  return (
-    <div>
-      <ScrollContainer>{children}</ScrollContainer>
-    </div>
-  )
+  return <div>{children}</div>
 }
 
 export default Page

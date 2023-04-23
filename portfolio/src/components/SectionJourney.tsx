@@ -1,43 +1,25 @@
-import * as React from 'react'
+import { Parallax } from 'react-scroll-parallax'
 import { DataContext } from './DataContext'
-import {
-  ScrollContainer,
-  ScrollPage,
-  batch,
-  Fade,
-  FadeIn,
-  FadeOut,
-  Move,
-  MoveIn,
-  MoveOut,
-  Sticky,
-  StickyIn,
-  StickyOut,
-  Zoom,
-  ZoomIn,
-  ZoomOut,
-} from 'react-scroll-motion'
-
-import dynamic from 'next/dynamic'
-const Animator = dynamic(
-  import('react-scroll-motion').then((it) => it.Animator),
-  { ssr: false }
-)
+import React from 'react'
 
 const SectionJourney = () => {
-  const ZoomInScrollOut = batch(StickyIn(), FadeIn(), ZoomIn())
-  const FadeUp = batch(Fade(), Move(), Sticky())
-  const { socialData } = React.useContext(DataContext)
+  const { sections } = React.useContext(DataContext)
 
+  const subtitles = sections.journey?.subtitle.split('\n')
   return (
-    <ScrollPage>
-      <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-        <span class="text-3xl text-editor-highlight-1">
-          {' '}
-          {socialData.github} 😀
-        </span>
-      </Animator>
-    </ScrollPage>
+    <div className="parallax-root">
+      <div className="parallax-container">
+        <Parallax translateX={[-100, 0]}>
+          <p className="section-title">{sections.journey?.title}</p>
+        </Parallax>
+
+        {subtitles?.map((subtitle, index) => (
+          <Parallax translateX={[50, -50]} key={index}>
+            <p className="section-subtitle">{subtitle}</p>
+          </Parallax>
+        ))}
+      </div>
+    </div>
   )
 }
 

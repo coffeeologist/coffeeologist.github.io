@@ -37,7 +37,7 @@
     },
     "journey": {
       "title": "Volupatme quia sit aspera",
-      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo.\nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
       "images": [
         { "source": "/images/journey-a.png" },
         { "source": "/images/journey-b.png" }
