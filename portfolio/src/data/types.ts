@@ -45,6 +45,8 @@ export type Skill = {
 export type Section = {
   title: string
   subtitle: string
+  cta?: string
+  ctaSymbol?: string
   images: ImageSource[]
 }
 

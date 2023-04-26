@@ -7,11 +7,11 @@ const Header = () => {
 
   return (
     <header className="text-theme-text">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col items-center md:flex-row">
+      <div className="container flex items-center md:flex-row">
         <Link className="cursor-pointer mr-5 text-3xl font-medium" href="/">
           amyliu
         </Link>
-        <nav className="mt-1 flex flex-wrap items-center text-base justify-center">
+        <nav className="mt-1 flex items-center text-base justify-center">
           <Link className="cursor-pointer mr-5" href={socialData.linkedin}>
             <svg
               width={25}

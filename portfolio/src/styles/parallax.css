@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .parallax-root {
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    padding-top: 8%;
+    height: 100vh;
+  }
+
+  .parallax-container {
+    position: relative;
+    width: 70vh;
+  }
+}

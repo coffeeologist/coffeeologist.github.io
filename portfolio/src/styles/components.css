@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 10px solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: typing 3.5s steps(60, end), blink-caret 0.75s step-end 6;
+    text-align: left;
+    width: max-content;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0%;
+    }
+    40% {
+      width: 0%;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: var(--theme-highlight-contrast);
+    }
+  }
+
+  @keyframes fade-caret {
+    from {
+      border-color: var(--theme-highlight-contrast);
+    }
+    to {
+      border-color: transparent;
+    }
+  }
+}

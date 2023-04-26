@@ -31,16 +31,17 @@
   },
   "sections": {
     "splash": {
-      "title": "Lorem ipsum dolor sit amet",
-      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
-      "images": [{ "source": "/images/journey-b.png" }]
+      "title": "Hi! I'm Amy Liu",
+      "subtitle": "Full-stack software engineer, in pursuit of drawing cute illustrations, maintaining multilingual fluency, and consuming caffine.",
+      "cta": "Welcome to my little corner",
+      "images": [{ "source": "/images/splash_a.png" }]
     },
     "journey": {
       "title": "Volupatme quia sit aspera",
       "subtitle": "quasi architecto beatae vitae dicta sunt explicabo.\nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
       "images": [
-        { "source": "/images/journey-a.png" },
-        { "source": "/images/journey-b.png" }
+        { "source": "/images/journey_a.png" },
+        { "source": "/images/journey_b.png" }
       ]
     }
   }

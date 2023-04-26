@@ -24,4 +24,9 @@
 body {
   color: rgb(var(--theme-text));
   background: rgb(var(--theme-background));
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  padding: 40px 80px;
+  position: 100vw;
 }

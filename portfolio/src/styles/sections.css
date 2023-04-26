@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .section-title {
+    font-size: 62px;
+    line-height: 80px;
+    color: var(--theme-text);
+    font-weight: 700;
+  }
+  .section-title-small {
+    font-size: 44px;
+    line-height: 48px;
+    color: var(--theme-text);
+    font-weight: 700;
+  }
+
+  .section-subtitle {
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--theme-text);
+    padding-right: 10px;
+  }
+  .section-subtitle-small {
+    font-size: 18px;
+    line-height: 26px;
+    color: var(--theme-text);
+  }
+
+  .section-cta {
+    font-size: 28px;
+    color: var(--theme-highlight-contrast);
+    line-height: 36px;
+    display: inline;
+    font-weight: 700;
+  }
+  .section-cta-small {
+    font-size: 18px;
+    color: var(--theme-highlight-contrast);
+    line-height: 26px;
+    display: inline;
+    font-weight: 700;
+  }
+}
