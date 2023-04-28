@@ -37,8 +37,10 @@
       "images": [{ "source": "/images/splash_a.png" }]
     },
     "journey": {
-      "title": "Volupatme quia sit aspera",
-      "subtitle": "quasi architecto beatae vitae dicta sunt explicabo.\nNemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur",
+      "title": "In the exciting journey so far",
+      "subtitle": "I graduated from Carnegie Mellon University in 2022 with a bachelors in computer science, and have interned at Amazon and Microsoft.",
+      "subtitleOpt": "Currently working at Stripe doing full-stack development on merchant support experience.",
+      "cta": "Details on Linkedin",
       "images": [
         { "source": "/images/journey_a.png" },
         { "source": "/images/journey_b.png" }

@@ -10,8 +10,7 @@ const Portfolio = () => {
       <Header />
       <Page>
         <SectionSplash />
-        {/* <SectionJourney />
-        <SectionJourney /> */}
+        <SectionJourney />
       </Page>
       <Footer />
     </div>
