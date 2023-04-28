@@ -125,4 +125,31 @@
     background-repeat: no-repeat;
     background-position: center center;
   }
+
+  .creative-blob {
+    position: relative;
+    height: 70vh;
+  }
+
+  .blob-card {
+    position: absolute;
+    top: 0;
+  }
+
+  .creative-a {
+    left: 0px;
+  }
+
+  .creative-b {
+    left: 600px;
+  }
+
+  .creative-c {
+    top: 200px;
+    left: 300px;
+  }
+  .creative-d {
+    left: 40px;
+    top: 400px;
+  }
 }

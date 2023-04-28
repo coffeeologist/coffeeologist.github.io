@@ -10,7 +10,9 @@
   --theme-background: #f4f3f7;
   --theme-text: #5a5575;
   --theme-highlight: #716a93;
+  --theme-highlight-pastel: #d5d3df;
   --theme-highlight-contrast: #8c936a;
+  --tehme-highlight-contrast-pastel: #dddfd3;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,4 +31,23 @@ body {
 
   padding: 40px 80px;
   position: 100vw;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-highlight-pastel);
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--theme-highlight);
 }

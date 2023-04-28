@@ -73,12 +73,19 @@
     "skills": {
       "title": "Skills & tech stacks",
       "subtitle": "Blah blah blllaaahh blahblah blllalalhbh albhbhal blbllahah blalah bh allhlbahlb alalhb",
-      "subtitleOpt": "... and some spotlight projects to showcase",
+      "subtitleOpt": "... with some spotlight projects to showcase",
       "cta": "Details on Github",
+      "images": [{ "source": "/images/skills_a.png" }]
+    },
+    "creatives": {
+      "title": "And here's my creative side",
+      "subtitle": "Blah blah blllaaahh blahblah blllalalhbh albhbhal blbllahah blalah bh allhlbahlb alalhb",
       "images": [
-        { "source": "/images/skills_a.png" },
-        { "source": "/images/nc.png" },
-        { "source": "/images/logm.png" }
+        { "source": "/images/creatives_a.png" },
+        { "source": "/images/a.jpg" },
+        { "source": "/images/b.jpg" },
+        { "source": "/images/c.jpg" },
+        { "source": "/images/d.jpg" }
       ]
     }
   }

@@ -15,6 +15,7 @@ const Portfolio = () => {
         <SectionJourney />
         <SectionSkills />
         <SectionCreative />
+        <SectionJourney />
       </Page>
       <Footer />
     </div>
