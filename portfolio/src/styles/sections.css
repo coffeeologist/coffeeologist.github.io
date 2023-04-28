@@ -42,4 +42,87 @@
     display: inline;
     font-weight: 700;
   }
+
+  .skill-grid-card {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px;
+
+    max-width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    border-color: white;
+
+    filter: drop-shadow(5px 29px 21px rgba(0, 0, 0, 0.2));
+  }
+
+  .grid-card-titles-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+
+  .grid-card-title {
+    font-size: 28px;
+    color: var(--theme-highlight);
+    line-height: 32px;
+    font-weight: 700;
+    height: min-content;
+  }
+
+  .grid-card-subtitle {
+    margin: 10px 0px;
+    font-size: 18px;
+    color: var(--theme-highlight);
+    line-height: 20px;
+    flex-grow: 1;
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .grid-card-badges-container {
+    align-self: flex-end !important;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grid-card-badge {
+    font-size: 16px;
+    color: var(--theme-highlight-contrast);
+    line-height: 20px;
+    display: inline;
+
+    background-color: var(--theme-highlight-contrast);
+    color: white;
+    padding: 2px 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .project-nc {
+    background-image: url('/images/nc.JPG');
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .project-logm {
+    background-image: url('/images/logm.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .project-portfolio {
+    background-image: url('/images/portfolio.PNG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 }

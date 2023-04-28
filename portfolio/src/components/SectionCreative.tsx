@@ -1,10 +1,10 @@
 import { Parallax } from 'react-scroll-parallax'
 import { DataContext } from './DataContext'
-import CTA from './CTA'
 import React from 'react'
 import Image from 'next/image'
+import CTA from './CTA'
 
-const SectionJourney = () => {
+const SectionCreative = () => {
   const { sections } = React.useContext(DataContext)
   const { socialData } = React.useContext(DataContext)
 
@@ -55,8 +55,8 @@ const SectionJourney = () => {
         <Parallax
           opacity={[0, 1]}
           translateY={[100, 0]}
-          startScroll={700}
-          endScroll={800}
+          startScroll={800}
+          endScroll={925}
         >
           <CTA text={sections.journey?.cta} href={socialData.linkedin} />
         </Parallax>
@@ -65,4 +65,4 @@ const SectionJourney = () => {
   )
 }
 
-export default SectionJourney
+export default SectionCreative

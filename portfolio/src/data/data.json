@@ -11,21 +11,45 @@
   },
   "skillGroups": {
     "frontend": {
-      "title": "Frontend skills",
-      "subtitle": "Like making this website form scratch",
+      "title": "Frontend stuff",
+      "subtitle": "Like making this website from scratch",
       "skills": [
-        { "name": "HTML", "color": "#000000" },
-        { "name": "CSS", "color": "#196124" },
-        { "name": "Javascript", "color": "#000000" }
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "Javascript" },
+        { "name": "Typescript" },
+        { "name": "React" },
+        { "name": "Nextjs" },
+        { "name": "Tailwind" }
       ]
     },
     "backend": {
       "title": "Backend languages",
       "subtitle": "Always down to learn more",
+      "skills": [{ "name": "Java" }, { "name": "C" }, { "name": "Ruby" }]
+    },
+    "editor": {
+      "title": "Text editor",
+      "subtitle": "Vim keybindings on VScode deserves its own section",
+      "skills": [{ "name": "Vim" }, { "name": "VScode" }]
+    },
+    "general": {
+      "title": "General dev things",
+      "subtitle": "I once gave a lecture on glob vs regex",
       "skills": [
-        { "name": "Java", "color": "#000000" },
-        { "name": "C", "color": "#196124" },
-        { "name": "Ruby", "color": "#000000" }
+        { "name": "Git" },
+        { "name": "Github" },
+        { "name": "Regex" },
+        { "name": "Bash scripting" }
+      ]
+    },
+    "language": {
+      "title": "Spoken languages",
+      "subtitle": "Does my 2 years of high school spanish count?",
+      "skills": [
+        { "name": "English (native)" },
+        { "name": "Mandarin (native)" },
+        { "name": "Japanese (conversational)" }
       ]
     }
   },
@@ -44,6 +68,17 @@
       "images": [
         { "source": "/images/journey_a.png" },
         { "source": "/images/journey_b.png" }
+      ]
+    },
+    "skills": {
+      "title": "Skills & tech stacks",
+      "subtitle": "Blah blah blllaaahh blahblah blllalalhbh albhbhal blbllahah blalah bh allhlbahlb alalhb",
+      "subtitleOpt": "... and some spotlight projects to showcase",
+      "cta": "Details on Github",
+      "images": [
+        { "source": "/images/skills_a.png" },
+        { "source": "/images/nc.png" },
+        { "source": "/images/logm.png" }
       ]
     }
   }

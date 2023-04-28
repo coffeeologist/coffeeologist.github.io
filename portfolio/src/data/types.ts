@@ -39,7 +39,6 @@ export type SkillGroup = {
 
 export type Skill = {
   name: string
-  color: string
 }
 
 export type Section = {
