@@ -169,10 +169,10 @@ const SectionSkills = () => {
       </div>
 
       <div className="parallax-container mt-5 xl:grid xl:w-3/4 xl:grid-cols-2">
-        <Parallax speed={10}>
+        <Parallax speed={8}>
           <div className="skill-grid-card project-logm mt-0"></div>
         </Parallax>
-        <Parallax speed={10}>
+        <Parallax speed={8}>
           <div className="skill-grid-card project-nc mt-0"></div>
         </Parallax>
       </div>

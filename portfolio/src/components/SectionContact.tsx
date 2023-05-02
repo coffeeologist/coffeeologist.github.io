@@ -1,0 +1,57 @@
+import { Parallax } from 'react-scroll-parallax'
+import { DataContext } from './DataContext'
+import { linkedinSVG, githubSVG, emailSVG } from './Header'
+import React from 'react'
+import Image from 'next/image'
+import Link from 'next/link'
+
+const SectionContact = () => {
+  const { sections } = React.useContext(DataContext)
+  const { socialData } = React.useContext(DataContext)
+
+  return (
+    <div className="parallax-root mb-10">
+      <div className="parallax-container xl:w-1/4 mb-60">
+        <Parallax className="xl:w-max">
+          <p className="section-title-small xl:section-title">
+            {sections.contact?.title}
+          </p>
+        </Parallax>
+        <Parallax>
+          <p className="section-subtitle-small xl:section-subtitle ml-8 mt-5 mb-5">
+            {sections.contact?.subtitle}
+          </p>
+        </Parallax>
+      </div>
+      <Parallax>
+        <Image
+          src={sections.contact?.images[1].source}
+          alt="contact image"
+          key="contact-b"
+          width={230}
+          height={450}
+        ></Image>
+        <div className="container flex center justify-center px-12">
+          <Link className="cursor-pointer mx-auto" href={socialData.linkedin}>
+            {linkedinSVG(40)}
+          </Link>
+          <Link className="cursor-pointer mx-auto" href={socialData.github}>
+            {githubSVG(40)}
+          </Link>
+          <Link className="cursor-pointer mx-auto" href={socialData.email}>
+            {emailSVG(40)}
+          </Link>
+        </div>
+        <Image
+          src={sections.contact?.images[0].source}
+          alt="contact image"
+          key="contact-a"
+          width={250}
+          height={450}
+        ></Image>
+      </Parallax>
+    </div>
+  )
+}
+
+export default SectionContact

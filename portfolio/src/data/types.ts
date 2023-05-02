@@ -1,5 +1,6 @@
 export type Data = {
   metadata: Metadata
+  footer: Footer
   socialData: SocialData
   skillGroups: {
     frontend?: SkillGroup
@@ -17,6 +18,11 @@ export type Data = {
     hobbies?: Section
     contact?: Section
   }
+}
+
+export type Footer = {
+  copyright: string
+  lastUpdated: string
 }
 
 export type Metadata = {
@@ -51,4 +57,7 @@ export type Section = {
 
 export type ImageSource = {
   source: string
+  width?: number
+  height?: number
+  description?: string
 }

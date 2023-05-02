@@ -4,6 +4,10 @@
     "description": "Amy Liu personal portfolio website",
     "faviconSource": "/src/assets/images/favicon.png"
   },
+  "footer": {
+    "copyright": "Created by Amy Liu. All displayed photography and digital illustrations \u00a9 Amy Liu 2023.",
+    "lastUpdated": "May 02, 2023"
+  },
   "socialData": {
     "linkedin": "http://linkedin.com/in/jiachenamyliu",
     "github": "http://github.com/coffeeologist",
@@ -82,10 +86,73 @@
       "subtitle": "Blah blah blllaaahh blahblah blllalalhbh albhbhal blbllahah blalah bh allhlbahlb alalhb",
       "images": [
         { "source": "/images/creatives_a.png" },
-        { "source": "/images/a.jpg" },
-        { "source": "/images/b.jpg" },
-        { "source": "/images/c.jpg" },
-        { "source": "/images/d.jpg" }
+        {
+          "source": "/images/showcase_a.jpg",
+          "width": 144,
+          "height": 116,
+          "description": "Summer bunny"
+        },
+        {
+          "source": "/images/showcase_b.jpg",
+          "width": 562,
+          "height": 419,
+          "description": "An attempt at character design"
+        },
+        {
+          "source": "/images/showcase_c.jpg",
+          "width": 211,
+          "height": 174,
+          "description": "Logo design"
+        },
+        {
+          "source": "/images/showcase_d.jpg",
+          "width": 501,
+          "height": 375,
+          "description": "Personal portfolio accompanying illustrations"
+        },
+        {
+          "source": "/images/showcase_e.jpg",
+          "width": 276,
+          "height": 258,
+          "description": "wink \u2606"
+        },
+        {
+          "source": "/images/showcase_f.jpg",
+          "width": 274,
+          "height": 274,
+          "description": "Mochi cats, in all flavors"
+        },
+        {
+          "source": "/images/showcase_g.jpg",
+          "width": 248,
+          "height": 318,
+          "description": "Portrait of my favorite mentor"
+        },
+        {
+          "source": "/images/sunset.jpg",
+          "width": 958,
+          "height": 718,
+          "description": "A dash of sunset, Photography"
+        },
+        {
+          "source": "/images/bloom.jpg",
+          "width": 958,
+          "height": 718,
+          "description": "Spring in full swing, Photography"
+        }
+      ]
+    },
+    "hobbies": {
+      "title": "When I'm head-empty,",
+      "subtitle": "I doodle cute bunnies, bake cakes & pastries, and become hardstuck gold in any game I play (TFT, Overwatch, Valorant). ",
+      "images": [{ "source": "/images/hobbies_a.png" }]
+    },
+    "contact": {
+      "title": "Let's chat!",
+      "subtitle": "Thanks for visiting! I'd love to meet you too :)",
+      "images": [
+        { "source": "/images/contact_a.png" },
+        { "source": "/images/contact_b.png" }
       ]
     }
   }
