@@ -11,7 +11,7 @@ const SectionContact = () => {
 
   return (
     <div className="parallax-root mb-10">
-      <div className="parallax-container xl:w-1/4 mb-60">
+      <div className="parallax-container mt-16 xl:mt-0 xl:w-1/4 xl:mb-60">
         <Parallax className="xl:w-max">
           <p className="section-title-small xl:section-title">
             {sections.contact?.title}

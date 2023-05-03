@@ -22,7 +22,7 @@ const SectionJourney = () => {
         </Parallax>
       </div>
 
-      <div className="parallax-container pt-20">
+      <div className="parallax-container pt-8 xl:pt-20">
         <Parallax
           translateX={[-25, 0]}
           opacity={[0, 2]} // 2 so it reaches 1 faster

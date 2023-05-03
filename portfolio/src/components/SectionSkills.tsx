@@ -11,14 +11,14 @@ const SectionSkills = () => {
 
   return (
     <div className="parallax-root">
-      <div className="parallax-container w-max mx-auto mb-5">
+      <div className="parallax-container w-max mx-auto mb-5 mt-8">
         <Parallax speed={4}>
           <p className="section-title-small xl:section-title mx-auto">
             {sections.skills?.title}
           </p>
         </Parallax>
       </div>
-      <div className="parallax-container w-max mx-auto mb-10">
+      <div className="parallax-container w-max mx-auto xl:mb-10">
         <Parallax speed={5}>
           <p className="section-subtitle-small xl:section-subtitle mx-auto">
             {sections.skills?.subtitle}

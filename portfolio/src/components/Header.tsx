@@ -63,7 +63,7 @@ const Header = () => {
 
   return (
     <header className="text-theme-text">
-      <div className="container flex items-center md:flex-row">
+      <div className="container flex items-center md:flex-row mb-20">
         <Link className="cursor-pointer mr-5 text-3xl font-medium" href="/">
           amyliu
         </Link>
