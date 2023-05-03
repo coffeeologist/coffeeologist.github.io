@@ -2,9 +2,11 @@ import { Parallax } from 'react-scroll-parallax'
 import { DataContext } from './DataContext'
 import React from 'react'
 import Image from 'next/image'
+import CTA from './CTA'
 
 const SectionSkills = () => {
   const { sections } = React.useContext(DataContext)
+  const { socialData } = React.useContext(DataContext)
   const { skillGroups } = React.useContext(DataContext)
 
   return (
@@ -165,6 +167,7 @@ const SectionSkills = () => {
           <p className="section-subtitle-small xl:section-subtitle mx-auto">
             {sections.skills?.subtitleOpt}
           </p>
+          <CTA text={sections.skills?.cta} href={socialData.github} />
         </Parallax>
       </div>
 

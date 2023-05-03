@@ -1,9 +1,9 @@
 import React from 'react'
 import Link from 'next/link'
 
-const CTA = ({ text, href }) => {
+const CTA = ({ text, href, className = '' }) => {
   return (
-    <Link className="cursor-pointer" href={href}>
+    <Link className={`cursor-pointer ${className}`} href={href}>
       <p className="section-cta-small xl:section-cta">{text}&nbsp;</p>
       <svg
         width={22}
