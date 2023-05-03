@@ -31,6 +31,8 @@ body {
 
   padding: 40px 80px;
   position: 100vw;
+
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

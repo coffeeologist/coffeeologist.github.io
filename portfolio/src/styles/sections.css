@@ -107,7 +107,7 @@
 
   .project-nc {
     background-image: url('/images/nc.JPG');
-    background-size: 105%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
   }

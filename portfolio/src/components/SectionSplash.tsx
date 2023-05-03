@@ -16,7 +16,7 @@ const SectionSplash = () => {
           endScroll={1000}
           className="xl:w-max"
         >
-          <p className="section-title-small xl:section-title xl:typewriter">
+          <p className="section-title-small xl:section-title">
             {sections.splash?.title}
           </p>
         </Parallax>
