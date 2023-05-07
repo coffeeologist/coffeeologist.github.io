@@ -11,7 +11,7 @@ const SectionJourney = () => {
 
   return (
     <div>
-      <Label text="Journey" />
+      <Label text="Journey" height={950} />
       <div className="parallax-root items-start">
         <div className="parallax-container">
           <Parallax translateX={[25, 0]} startScroll={100} endScroll={600}>

@@ -10,7 +10,7 @@ const SectionSplash = () => {
 
   return (
     <div>
-      <Label text="Introduction" />
+      <Label text="Introduction" special />
       <div className="parallax-root">
         <div className="parallax-container">
           <Parallax

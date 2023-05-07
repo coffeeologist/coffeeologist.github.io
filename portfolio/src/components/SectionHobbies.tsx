@@ -9,7 +9,7 @@ const SectionHobbies = () => {
 
   return (
     <div>
-      <Label text="Hobbies" />
+      <Label text="Hobbies" height={600} />
       <div className="parallax-root">
         <div className="parallax-container">
           <Parallax translateX={[-20, 5]} opacity={[0, 2]} easing="easeOut">

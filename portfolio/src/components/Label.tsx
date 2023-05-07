@@ -2,9 +2,13 @@ import React from 'react'
 
 import { Parallax } from 'react-scroll-parallax'
 
-const Label = ({ text, height = 800, className = '' }) => {
+const Label = ({ text, height = 800, special = false, className = '' }) => {
   return (
-    <Parallax translateY={[100, height]}>
+    <Parallax
+      translateY={special ? [0, height] : [100, height]}
+      startScroll={special ? 80 : null}
+      endScroll={special ? 400 : null}
+    >
       <div className={`hidden xl:section-label ${className}`}>
         {text} &mdash;&mdash;
       </div>

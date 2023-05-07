@@ -44,4 +44,33 @@
       border-color: transparent;
     }
   }
+  .socials-group-icon {
+    fill: var(--theme-highlight);
+  }
+  /* 
+  .socials-group-inner-circle {
+    fill: transparent; transition: all 0.2s;
+  }
+
+  .socials-group-outer-cricle {
+    stroke: var(--theme-highlight);
+    transform-origin: 50% 50%;
+    transition: all 0.2s;
+  } */
+
+  .socials-group-icon:hover,
+  .socials-group-icon:focus,
+  .socials-group-icon:active {
+    fill: var(--theme-background);
+  }
+  /* .socials-group-inner-circle:hover {
+    fill: var(--theme-highlight-contrast);
+    transition: all 0.45s;
+  }
+
+  .socials-group-outer-circle:hover {
+    stroke: var(--theme-highlight-contrast);
+    transform: scale(1.1);
+    transition: all 0.45s;
+  } */
 }
