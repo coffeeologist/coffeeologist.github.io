@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 @layer components {
+  .section-label {
+    visibility: visible !important;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: var(--theme-text);
+
+    transform: rotate(-90deg) translate(-100%, -50%);
+    transform-origin: left top;
+    white-space: nowrap;
+  }
+
   .section-title {
     font-size: 62px;
     line-height: 80px;
@@ -98,7 +112,7 @@
 
     background-color: var(--theme-highlight-contrast);
     color: white;
-    padding: 2px 8px;
+    padding: 1px 8px 4px 8px;
     margin-right: 3px;
     margin-bottom: 3px;
     text-align: center;
@@ -126,25 +140,41 @@
     background-position: center center;
   }
 
-  .creative-blob {
+  .creative-blob-base {
+  }
+
+  .creative-blob-xl {
     position: relative;
   }
 
-  .blob-card {
+  .blob-card-base {
+    height: min-content;
+    margin-bottom: 16px;
+  }
+
+  .blob-card-xl {
     position: absolute;
   }
 
-  .blob-card-image {
+  .blob-card-image-base {
     border: 5px solid var(--theme-highlight-contrast);
     border-radius: 16px;
+    margin: auto auto;
   }
-  .blob-card-description {
-    position: absolute;
+
+  .blob-card-description-base {
     background-color: var(--theme-highlight-contrast);
     color: white;
-    padding: 2px 10px;
-    border-radius: 8px;
+    padding: 1px 10px 4px 10px;
+    border-radius: 10px;
+    width: max-content;
+    margin: 3px auto;
+  }
+
+  .blob-card-description-xl {
+    position: absolute;
     white-space: nowrap;
+    margin: 0px;
   }
 
   .creative-a {
