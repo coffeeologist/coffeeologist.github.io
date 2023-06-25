@@ -60,7 +60,7 @@
   "sections": {
     "splash": {
       "title": "Hi! I'm Amy Liu",
-      "subtitle": "Full-stack software engineer, in pursuit of drawing cute illustrations, maintaining multilingual fluency, and consuming caffine.",
+      "subtitle": "Full-stack software engineer, in pursuit of drawing cute illustrations, maintaining multilingual fluency, and consuming caffeine.",
       "cta": "Welcome to my little corner",
       "images": [{ "source": "/images/splash_a.png" }]
     },
