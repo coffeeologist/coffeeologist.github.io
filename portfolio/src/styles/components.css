@@ -45,43 +45,46 @@
     }
   }
 
-  .social-group__icon {
+  /* Original state / return-to-normal state */
+  .animated-icon-group--icon {
     fill: var(--theme-text);
     transition: all 0.2s;
   }
 
-  .social-group__inner-circle {
+  .animated-icon-group--inner-circle {
     fill: transparent;
     transition: all 0.2s;
   }
 
-  .social-group__outline {
+  .animated-icon-group--outline {
     stroke: var(--theme-text);
     transform-origin: 50% 50%;
     transition: all 0.2s;
   }
 
-  .social-link:is(:hover, :focus, :active) .social-group__inner-circle {
+  /* Animation state / when hovered state */
+  .animated-link:is(:hover, :focus, :active)
+    .animated-icon-group--inner-circle {
     fill: var(--theme-text) !important;
-    transition: all 0.45s;
+    transition: all 0.35s;
   }
 
-  .social-link:is(:hover, :focus, :active) .social-group__icon {
+  .animated-link:is(:hover, :focus, :active) .animated-icon-group--icon {
     fill: var(--theme-background) !important;
-    transition: all 0.45s;
+    transition: all 0.35s;
   }
 
-  .social-link:is(:hover, :focus, :active) .social-group__outline {
+  .animated-link:is(:hover, :focus, :active) .animated-icon-group--outline {
     stroke: var(--theme-text) !important;
     stroke-width: 25px;
-    animation: circle-chart-fill 0.3s reverse;
+    animation: circling-animation 0.225s reverse;
     transform-origin: center;
 
     transform: scale(1.15) rotate(95deg); /* rotation to give a growing circle border feel */
-    transition: all 0.45s;
+    transition: all 0.35s;
   }
 
-  @keyframes circle-chart-fill {
+  @keyframes circling-animation {
     to {
       stroke-dasharray: 0 1333; /* starting state, nothing around the circle */
     }
