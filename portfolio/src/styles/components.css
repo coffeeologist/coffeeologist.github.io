@@ -44,33 +44,46 @@
       border-color: transparent;
     }
   }
-  .socials-group-icon {
-    fill: var(--theme-highlight);
-  }
-  /* 
-  .socials-group-inner-circle {
-    fill: transparent; transition: all 0.2s;
+
+  .social-group__icon {
+    fill: var(--theme-text);
+    transition: all 0.2s;
   }
 
-  .socials-group-outer-cricle {
-    stroke: var(--theme-highlight);
+  .social-group__inner-circle {
+    fill: transparent;
+    transition: all 0.2s;
+  }
+
+  .social-group__outline {
+    stroke: var(--theme-text);
     transform-origin: 50% 50%;
     transition: all 0.2s;
-  } */
-
-  .socials-group-icon:hover,
-  .socials-group-icon:focus,
-  .socials-group-icon:active {
-    fill: var(--theme-background);
   }
-  /* .socials-group-inner-circle:hover {
-    fill: var(--theme-highlight-contrast);
+
+  .social-link:is(:hover, :focus, :active) .social-group__inner-circle {
+    fill: var(--theme-text) !important;
     transition: all 0.45s;
   }
 
-  .socials-group-outer-circle:hover {
-    stroke: var(--theme-highlight-contrast);
-    transform: scale(1.1);
+  .social-link:is(:hover, :focus, :active) .social-group__icon {
+    fill: var(--theme-background) !important;
     transition: all 0.45s;
-  } */
+  }
+
+  .social-link:is(:hover, :focus, :active) .social-group__outline {
+    stroke: var(--theme-text) !important;
+    stroke-width: 25px;
+    animation: circle-chart-fill 0.3s reverse;
+    transform-origin: center;
+
+    transform: scale(1.15) rotate(95deg); /* rotation to give a growing circle border feel */
+    transition: all 0.45s;
+  }
+
+  @keyframes circle-chart-fill {
+    to {
+      stroke-dasharray: 0 1333; /* starting state, nothing around the circle */
+    }
+  }
 }
