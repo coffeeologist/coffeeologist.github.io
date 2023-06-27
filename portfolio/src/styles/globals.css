@@ -24,8 +24,8 @@
 }
 
 body {
-  color: rgb(var(--theme-text));
-  background: rgb(var(--theme-background));
+  color: var(--theme-text);
+  background: var(--theme-background);
   backface-visibility: hidden;
   -webkit-font-smoothing: subpixel-antialiased;
 
@@ -33,6 +33,11 @@ body {
   position: 100vw;
 
   overflow-x: hidden;
+}
+
+p::selection {
+  background: var(--theme-highlight);
+  color: var(--theme-background);
 }
 
 ::-webkit-scrollbar {

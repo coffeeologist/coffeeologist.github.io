@@ -111,11 +111,10 @@ const Header = () => {
   return (
     <header>
       <div className="container flex items-center md:flex-row mb-20">
-        <Link
-          className="cursor-pointer mr-5 text-4xl pb-0.5 font-medium text-theme-highlight"
-          href="/"
-        >
-          amyliu
+        <Link className="cursor-default mr-5 px-4 animated-link" href="/">
+          <p className="font-medium text-theme-highlight text-4xl animated-link-group pb-0.5">
+            amyliu
+          </p>
         </Link>
         <nav className="mt-1 flex items-center text-base justify-center">
           <Link

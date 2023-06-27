@@ -55,12 +55,7 @@ const SectionJourney = () => {
 
         <div className="parallax-container"></div>
         <div className="parallax-container mt-5">
-          <Parallax
-            opacity={[0, 1]}
-            translateY={[100, 0]}
-            startScroll={700}
-            endScroll={800}
-          >
+          <Parallax>
             <CTA text={sections.journey?.cta} href={socialData.linkedin} />
           </Parallax>
         </div>

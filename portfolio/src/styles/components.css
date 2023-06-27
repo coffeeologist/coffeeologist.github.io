@@ -63,18 +63,17 @@
   }
 
   /* Animation state / when hovered state */
-  .animated-icon:is(:hover, :focus, :active)
-    .animated-icon-group--inner-circle {
+  .animated-icon:is(:hover, :focus) .animated-icon-group--inner-circle {
     fill: var(--theme-highlight) !important;
     transition: all 0.35s;
   }
 
-  .animated-icon:is(:hover, :focus, :active) .animated-icon-group--icon {
+  .animated-icon:is(:hover, :focus) .animated-icon-group--icon {
     fill: var(--theme-background) !important;
     transition: all 0.35s;
   }
 
-  .animated-icon:is(:hover, :focus, :active) .animated-icon-group--outline {
+  .animated-icon:is(:hover, :focus) .animated-icon-group--outline {
     stroke: var(--theme-highlight) !important;
     stroke-width: 25px;
     animation: circling-animation 0.225s reverse;
@@ -88,5 +87,67 @@
     to {
       stroke-dasharray: 0 1333; /* starting state, nothing around the circle */
     }
+  }
+
+  .animated-link {
+    color: currentColor;
+
+    background-image: linear-gradient(
+      110deg,
+      var(--theme-highlight) 60%,
+      var(--theme-background) 40%
+    );
+    background-size: 200% 100%;
+    background-position-x: 130%;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+  }
+
+  .animated-link:is(:hover, :focus) {
+    background-size: 200% 100%;
+    background-position-x: 10%;
+
+    transition: all 0.35s;
+  }
+
+  .animated-link:is(:hover, :focus) .animated-link-group {
+    color: var(--theme-background);
+    transition: all 0.2s;
+    fill: var(--theme-background);
+    padding-bottom: 0.75%;
+  }
+
+  .animated-cta-link {
+    color: currentColor;
+
+    background-image: linear-gradient(
+      110deg,
+      var(--theme-highlight-contrast) 60%,
+      var(--theme-background) 40%
+    );
+    background-size: 200% 100%;
+    background-position-x: 130%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+  }
+
+  .animated-cta-link:is(:hover, :focus) {
+    background-size: 200% 100%;
+    background-position-x: 10%;
+    transition: all 0.45s;
+  }
+
+  .animated-cta-link:is(:hover, :focus) .animated-cta-link-group--text {
+    color: var(--theme-background);
+    transition: all 0.3s;
+    margin-left: 2%;
+  }
+
+  .animated-cta-link:is(:hover, :focus) .animated-cta-link-group--icon {
+    fill: var(--theme-background);
+    transition: all 0.35s;
+    transform: scale(1.1) rotate(90);
+    margin-left: 1%;
+    margin-right: 2%;
   }
 }
