@@ -36,19 +36,19 @@ const SectionContact = () => {
           ></Image>
           <div className="container flex center justify-center px-12">
             <Link
-              className="cursor-pointer mx-auto animated-link"
+              className="cursor-pointer mx-auto animated-icon"
               href={socialData.linkedin}
             >
               {linkedinSVG(52)}
             </Link>
             <Link
-              className="cursor-pointer mx-auto animated-link"
+              className="cursor-pointer mx-auto animated-icon"
               href={socialData.github}
             >
               {githubSVG(52)}
             </Link>
             <Link
-              className="cursor-pointer mx-auto animated-link"
+              className="cursor-pointer mx-auto animated-icon"
               href={socialData.email}
             >
               {emailSVG(52)}

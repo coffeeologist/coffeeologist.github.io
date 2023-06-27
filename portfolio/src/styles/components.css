@@ -63,18 +63,18 @@
   }
 
   /* Animation state / when hovered state */
-  .animated-link:is(:hover, :focus, :active)
+  .animated-icon:is(:hover, :focus, :active)
     .animated-icon-group--inner-circle {
     fill: var(--theme-highlight) !important;
     transition: all 0.35s;
   }
 
-  .animated-link:is(:hover, :focus, :active) .animated-icon-group--icon {
+  .animated-icon:is(:hover, :focus, :active) .animated-icon-group--icon {
     fill: var(--theme-background) !important;
     transition: all 0.35s;
   }
 
-  .animated-link:is(:hover, :focus, :active) .animated-icon-group--outline {
+  .animated-icon:is(:hover, :focus, :active) .animated-icon-group--outline {
     stroke: var(--theme-highlight) !important;
     stroke-width: 25px;
     animation: circling-animation 0.225s reverse;

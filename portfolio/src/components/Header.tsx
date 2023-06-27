@@ -119,19 +119,19 @@ const Header = () => {
         </Link>
         <nav className="mt-1 flex items-center text-base justify-center">
           <Link
-            className="cursor-pointer mr-2 animated-link"
+            className="cursor-pointer mr-2 animated-icon"
             href={socialData.linkedin}
           >
             {linkedinSVG()}
           </Link>
           <Link
-            className="cursor-pointer mr-2 animated-link"
+            className="cursor-pointer mr-2 animated-icon"
             href={socialData.github}
           >
             {githubSVG()}
           </Link>
           <Link
-            className="cursor-pointer mr-2 animated-link"
+            className="cursor-pointer mr-2 animated-icon"
             href={socialData.email}
           >
             {emailSVG()}

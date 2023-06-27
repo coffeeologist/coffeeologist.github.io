@@ -10,7 +10,7 @@
     font-weight: 800;
     line-height: 26px;
     text-transform: uppercase;
-    color: var(--theme-text);
+    color: var(--theme-highlight);
 
     transform: rotate(-90deg) translate(-100%, -50%);
     transform-origin: left top;
