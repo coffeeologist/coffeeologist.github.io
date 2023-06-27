@@ -35,14 +35,23 @@ const SectionContact = () => {
             height={450}
           ></Image>
           <div className="container flex center justify-center px-12">
-            <Link className="cursor-pointer mx-auto" href={socialData.linkedin}>
-              {linkedinSVG(40)}
+            <Link
+              className="cursor-pointer mx-auto animated-link"
+              href={socialData.linkedin}
+            >
+              {linkedinSVG(52)}
             </Link>
-            <Link className="cursor-pointer mx-auto" href={socialData.github}>
-              {githubSVG(40)}
+            <Link
+              className="cursor-pointer mx-auto animated-link"
+              href={socialData.github}
+            >
+              {githubSVG(52)}
             </Link>
-            <Link className="cursor-pointer mx-auto" href={socialData.email}>
-              {emailSVG(40)}
+            <Link
+              className="cursor-pointer mx-auto animated-link"
+              href={socialData.email}
+            >
+              {emailSVG(52)}
             </Link>
           </div>
           <Image

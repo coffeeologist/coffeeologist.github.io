@@ -47,7 +47,7 @@
 
   /* Original state / return-to-normal state */
   .animated-icon-group--icon {
-    fill: var(--theme-text);
+    fill: var(--theme-highlight);
     transition: all 0.2s;
   }
 
@@ -57,7 +57,7 @@
   }
 
   .animated-icon-group--outline {
-    stroke: var(--theme-text);
+    stroke: var(--theme-highlight);
     transform-origin: 50% 50%;
     transition: all 0.2s;
   }
@@ -65,7 +65,7 @@
   /* Animation state / when hovered state */
   .animated-link:is(:hover, :focus, :active)
     .animated-icon-group--inner-circle {
-    fill: var(--theme-text) !important;
+    fill: var(--theme-highlight) !important;
     transition: all 0.35s;
   }
 
@@ -75,7 +75,7 @@
   }
 
   .animated-link:is(:hover, :focus, :active) .animated-icon-group--outline {
-    stroke: var(--theme-text) !important;
+    stroke: var(--theme-highlight) !important;
     stroke-width: 25px;
     animation: circling-animation 0.225s reverse;
     transform-origin: center;

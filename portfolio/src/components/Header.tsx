@@ -109,26 +109,29 @@ const Header = () => {
   const { socialData } = React.useContext(DataContext)
 
   return (
-    <header className="text-theme-text">
+    <header>
       <div className="container flex items-center md:flex-row mb-20">
-        <Link className="cursor-pointer mr-5 text-3xl font-medium" href="/">
+        <Link
+          className="cursor-pointer mr-5 text-4xl pb-0.5 font-medium text-theme-highlight"
+          href="/"
+        >
           amyliu
         </Link>
         <nav className="mt-1 flex items-center text-base justify-center">
           <Link
-            className="cursor-pointer mr-5 animated-link"
+            className="cursor-pointer mr-2 animated-link"
             href={socialData.linkedin}
           >
             {linkedinSVG()}
           </Link>
           <Link
-            className="cursor-pointer mr-5 animated-link"
+            className="cursor-pointer mr-2 animated-link"
             href={socialData.github}
           >
             {githubSVG()}
           </Link>
           <Link
-            className="cursor-pointer mr-5 animated-link"
+            className="cursor-pointer mr-2 animated-link"
             href={socialData.email}
           >
             {emailSVG()}
