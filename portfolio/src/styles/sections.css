@@ -58,6 +58,7 @@
   }
 
   .skill-grid-card {
+    cursor: default;
     flex-wrap: wrap;
     display: flex;
     margin: 10px;
@@ -67,11 +68,14 @@
     min-height: 200px;
 
     background-color: white;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 25px;
     border-color: white;
+  }
 
-    filter: drop-shadow(5px 29px 21px rgba(0, 0, 0, 0.2));
+  .skill-grid-card:hover {
+    filter: drop-shadow(5px 29px 21px var(--theme-highlight-pastel));
+    transition: all 0.2s;
   }
 
   .grid-card-titles-container {

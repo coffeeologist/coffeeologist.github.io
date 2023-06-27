@@ -12,7 +12,7 @@
   --theme-highlight: #716a93;
   --theme-highlight-pastel: #d5d3df;
   --theme-highlight-contrast: #8c936a;
-  --tehme-highlight-contrast-pastel: #dddfd3;
+  --theme-highlight-contrast-pastel: #dddfd3;
 }
 
 @media (prefers-color-scheme: dark) {
