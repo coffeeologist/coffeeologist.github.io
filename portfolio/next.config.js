@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   distDir: 'build',
   output: 'export',
-  basepath: '/coffeeologist.github.io',
+  basePath: '/coffeeologist.github.io',
   images: {
     unoptimized: true,
   },
