@@ -97,7 +97,7 @@
       "images": [
         { "source": "/images/creatives_a.png" },
         {
-          "source": "/images/a_anniversary.jpg",
+          "source": "/images/a_mimi.jpg",
           "width": 500,
           "height": 500,
           "description": "[Illustration] Coworker's 3rd anniversary",
@@ -110,7 +110,7 @@
           "description": "[Illustration] Travelling the world"
         },
         {
-          "source": "/images/a_portfolio.jpg",
+          "source": "/images/a_portfolio_illust.jpg",
           "width": 1000,
           "height": 500,
           "description": "[Illustration] Related to me",
@@ -123,7 +123,7 @@
           "description": "[Illustration] Gift to a Raze main"
         },
         {
-          "source": "/images/a_wink_selfie.jpg",
+          "source": "/images/a_wink.jpg",
           "width": 500,
           "height": 500,
           "description": "[Illustration] wink \u2606"
