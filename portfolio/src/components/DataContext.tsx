@@ -12,13 +12,53 @@ const defaultData: Data = {
     description: '',
     faviconSource: '',
   },
+  footer: {
+    copyright: '',
+    lastUpdated: '',
+  },
   socialData: {
     linkedin: '',
     github: '',
     email: '',
   },
   skillGroups: {},
-  sections: {},
+  sections: {
+    splash: {
+      title: '',
+      subtitle: '',
+      images: [],
+    },
+    journey: {
+      title: '',
+      subtitle: '',
+      images: [],
+    },
+    skills: {
+      title: '',
+      subtitle: '',
+      images: [],
+    },
+    projects: {
+      title: '',
+      subtitle: '',
+      images: [],
+    },
+    creatives: {
+      title: '',
+      subtitle: '',
+      images: [],
+    },
+    hobbies: {
+      title: '',
+      subtitle: '',
+      images: [],
+    },
+    contact: {
+      title: '',
+      subtitle: '',
+      images: [],
+    },
+  },
 }
 
 export const DataContext: React.Context<Data> =

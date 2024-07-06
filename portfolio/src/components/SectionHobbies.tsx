@@ -1,4 +1,4 @@
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 import { DataContext } from './DataContext'
 import React from 'react'
 import Image from 'next/image'
@@ -13,20 +13,20 @@ const SectionHobbies = () => {
       <div className="parallax-root">
         <div className="parallax-container">
           <p className="section-title-small text-right mb-10 xl:pr-10 xl:mb-0 xl:section-title">
-            {sections.hobbies?.title}
+            {sections.hobbies.title}
           </p>
         </div>
 
         <div className="parallax-container">
           <p className="section-subtitle-small mb-4 xl:mb-0 xl:section-subtitle">
-            {sections.hobbies?.subtitle}
+            {sections.hobbies.subtitle}
           </p>
         </div>
 
         <div className="parallax-container"></div>
         <div className="parallax-container">
           <Image
-            src={sections.hobbies?.images[0].source}
+            src={sections.hobbies.images[0].source}
             className="xl:justify-self-end"
             alt="hobbies a"
             width={450}

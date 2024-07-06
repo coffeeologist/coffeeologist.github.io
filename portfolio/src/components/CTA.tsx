@@ -1,7 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
 
-export const SpecialCTA = ({ text, className = '' }) => {
+export const SpecialCTA = ({
+  text,
+  className = '',
+}: {
+  text: string
+  className?: string
+}) => {
   return (
     <span className={`cursor-pointer ${className} pt-2 pb-1 animated-cta-link`}>
       <p className="section-cta-small xl:section-cta animated-cta-link-group--text">
@@ -19,7 +25,15 @@ export const SpecialCTA = ({ text, className = '' }) => {
   )
 }
 
-const CTA = ({ text, href, className = '' }) => {
+const CTA = ({
+  text,
+  href,
+  className = '',
+}: {
+  text: string
+  href: string
+  className?: string
+}) => {
   return (
     <Link
       className={`cursor-pointer ${className} pt-2 pb-1 animated-cta-link`}

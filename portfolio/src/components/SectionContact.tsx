@@ -1,4 +1,4 @@
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 import { DataContext } from './DataContext'
 import { linkedinSVG, githubSVG, emailSVG } from './Header'
 import React from 'react'
@@ -17,16 +17,16 @@ const SectionContact = () => {
         <div className="parallax-container mt-16 xl:mt-0 xl:w-1/4 xl:mb-60">
           <div className="xl:w-max">
             <p className="section-title-small xl:section-title">
-              {sections.contact?.title}
+              {sections.contact.title}
             </p>
           </div>
           <p className="section-subtitle-small xl:section-subtitle ml-8 mt-5 mb-5">
-            {sections.contact?.subtitle}
+            {sections.contact.subtitle}
           </p>
         </div>
         <div>
           <Image
-            src={sections.contact?.images[1].source}
+            src={sections.contact.images[1].source || ''}
             alt="contact image"
             key="contact-b"
             width={230}
@@ -53,7 +53,7 @@ const SectionContact = () => {
             </Link>
           </div>
           <Image
-            src={sections.contact?.images[0].source}
+            src={sections.contact.images[0].source}
             alt="contact image"
             key="contact-a"
             width={250}

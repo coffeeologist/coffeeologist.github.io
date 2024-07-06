@@ -10,13 +10,13 @@ export type Data = {
     general?: SkillGroup
   }
   sections: {
-    splash?: Section
-    journey?: Section
-    skills?: Section
-    projects?: Section
-    creatives?: Section
-    hobbies?: Section
-    contact?: Section
+    splash: Section
+    journey: Section
+    skills: Section
+    projects: Section
+    creatives: Section
+    hobbies: Section
+    contact: Section
   }
 }
 

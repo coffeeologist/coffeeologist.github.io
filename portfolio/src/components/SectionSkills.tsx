@@ -1,4 +1,4 @@
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 import { DataContext } from './DataContext'
 import React from 'react'
 import Image from 'next/image'
@@ -116,7 +116,7 @@ const SectionSkills = () => {
 
         <div className="parallax-container">
           <Image
-            src={sections.skills?.images[0].source}
+            src={sections.skills.images[0].source}
             className="mx-auto"
             alt="skills image a"
             width={450}
@@ -126,9 +126,11 @@ const SectionSkills = () => {
 
         <div className="parallax-container ml-8 xl:mt-56 xl:-ml-64">
           <p className="section-subtitle-small xl:section-subtitle mx-auto">
-            {sections.skills?.subtitleOpt}
+            {sections.skills.subtitleOpt}
           </p>
-          <CTA text={sections.skills?.cta} href={socialData.github} />
+          {sections.skills.cta && (
+            <CTA text={sections.skills.cta} href={socialData.github} />
+          )}
         </div>
 
         <div className="parallax-container mt-5 xl:grid xl:w-3/4 xl:grid-cols-2">
