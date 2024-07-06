@@ -12,32 +12,26 @@ const SectionHobbies = () => {
       <Label text="Hobbies" height={600} />
       <div className="parallax-root">
         <div className="parallax-container">
-          <Parallax translateX={[-20, 5]} opacity={[0, 2]} easing="easeOut">
-            <p className="section-title-small mb-10 xl:mb-0 xl:section-title">
-              {sections.hobbies?.title}
-            </p>
-          </Parallax>
+          <p className="section-title-small text-right mb-10 xl:pr-10 xl:mb-0 xl:section-title">
+            {sections.hobbies?.title}
+          </p>
         </div>
 
         <div className="parallax-container">
-          <Parallax translateX={[-10, 5]} opacity={[0, 2]} easing="easeOutExpo">
-            <p className="section-subtitle-small mb-4 xl:mb-0 xl:section-subtitle">
-              {sections.hobbies?.subtitle}
-            </p>
-          </Parallax>
+          <p className="section-subtitle-small mb-4 xl:mb-0 xl:section-subtitle">
+            {sections.hobbies?.subtitle}
+          </p>
         </div>
 
         <div className="parallax-container"></div>
         <div className="parallax-container">
-          <Parallax translateY={[-20, -5]} opacity={[0, 4]} easing="easeInOut">
-            <Image
-              src={sections.hobbies?.images[0].source}
-              className="xl:justify-self-end"
-              alt="hobbies a"
-              width={450}
-              height={450}
-            />
-          </Parallax>
+          <Image
+            src={sections.hobbies?.images[0].source}
+            className="xl:justify-self-end"
+            alt="hobbies a"
+            width={450}
+            height={450}
+          />
         </div>
       </div>
     </div>

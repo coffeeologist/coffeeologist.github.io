@@ -7,12 +7,10 @@ import SectionSkills from './SectionSkills'
 import SectionCreative from './SectionCreative'
 import SectionHobbies from './SectionHobbies'
 import SectionContact from './SectionContact'
-import TableOfContents from './TableOfContents'
 
 const Portfolio = () => {
   return (
     <div className="bg-editor-background">
-      <TableOfContents />
       <Header />
       <Page>
         <SectionSplash />

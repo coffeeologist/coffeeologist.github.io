@@ -2,35 +2,33 @@ import { Parallax } from 'react-scroll-parallax'
 import { DataContext } from './DataContext'
 import React from 'react'
 import Image from 'next/image'
-import CTA from './CTA'
+import CTA, { SpecialCTA } from './CTA'
 import Label from './Label'
 
 const SectionSplash = () => {
   const { sections } = React.useContext(DataContext)
 
+  const handleClick = () => {
+    console.log('hello')
+    const nextSection = document.querySelector('#next-section-anchor')
+    console.log(nextSection)
+    nextSection.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  }
+
   return (
     <div>
       <Label text="Introduction" special />
-      <div className="parallax-root">
+      <div className="parallax-root first-root">
         <div className="parallax-container">
-          <Parallax
-            scale={[1, 1.5]}
-            startScroll={80}
-            endScroll={1000}
-            className="xl:w-max"
-          >
-            <p className="section-title-small xl:section-title">
-              {sections.splash?.title}
-            </p>
-          </Parallax>
-          <Parallax scale={[1, 0.5]} startScroll={80} endScroll={1000}>
-            <p className="section-subtitle-small xl:section-subtitle ml-8 mt-5 mb-5">
-              {sections.splash?.subtitle}
-            </p>
-          </Parallax>
-          <Parallax scale={[1, 1.5]} startScroll={80} endScroll={1000}>
-            <CTA text={sections.splash?.cta} href="/" />
-          </Parallax>
+          <p className="section-title-small xl:section-title">
+            {sections.splash?.title}
+          </p>
+          <p className="section-subtitle-small xl:section-subtitle ml-8 mt-5 mb-5">
+            {sections.splash?.subtitle}
+          </p>
+          <div onClick={handleClick}>
+            <SpecialCTA text={sections.splash?.cta} />
+          </div>
         </div>
         <Image
           src={sections.splash?.images[0].source}

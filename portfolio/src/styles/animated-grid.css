@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .base-grid {
+    grid-template-columns: repeat(auto-fit, minmax(2, 1fr));
+  }
+  .animated-grid {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)) !important;
+    grid-auto-flow: dense;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+  }
+
+  .animated-grid-card.animated-grid-card--expanded {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .animated-grid-card--wide.animated-grid-card--expanded {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+
+  .animated-grid-card {
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  .animated-grid-card--wide {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+
+  .tooltip {
+    position: relative !important;
+    display: inline-block;
+  }
+
+  .tooltip-text {
+    display: none;
+    color: white;
+    background: var(--theme-highlight-contrast);
+    top: 10px;
+    left: 10px;
+    padding: 1px 5px;
+    border-radius: 5px;
+    max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: absolute !important;
+    z-index: 1000;
+    transform: none !important;
+  }
+
+  .tooltip:hover .tooltip-text {
+    display: block;
+  }
+}

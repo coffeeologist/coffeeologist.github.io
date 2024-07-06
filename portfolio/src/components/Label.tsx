@@ -9,7 +9,7 @@ const Label = ({ text, height = 800, special = false, className = '' }) => {
       startScroll={special ? 80 : null}
       endScroll={special ? 400 : null}
     >
-      <div className={`hidden xl:section-label ${className}`}>
+      <div className={`hidden lg:section-label ${className}`}>
         {text} &mdash;&mdash;
       </div>
     </Parallax>

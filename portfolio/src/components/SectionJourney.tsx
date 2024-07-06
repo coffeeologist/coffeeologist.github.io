@@ -14,50 +14,45 @@ const SectionJourney = () => {
       <Label text="Journey" height={950} />
       <div className="parallax-root items-start">
         <div className="parallax-container">
-          <Parallax translateX={[25, 0]} startScroll={100} endScroll={600}>
-            <Image
-              src={sections.journey?.images[0].source}
-              className="mx-auto"
-              alt="journey image a"
-              width={400}
-              height={400}
-            />
-          </Parallax>
+          <Image
+            src={sections.journey?.images[0].source}
+            className="mx-auto"
+            alt="journey image a"
+            width={400}
+            height={400}
+          />
         </div>
 
         <div className="parallax-container pt-8 xl:pt-20">
-          <Parallax
-            translateX={[-25, 0]}
-            opacity={[0, 2]} // 2 so it reaches 1 faster
-            startScroll={100}
-            endScroll={600}
-          >
-            <p className="section-title-small xl:section-title">
-              {sections.journey?.title}
-            </p>
-          </Parallax>
+          <p className="section-title-small xl:section-title">
+            {sections.journey?.title}
+          </p>
         </div>
 
         <div className="parallax-container pt-10 pl-8 xl:pr-20">
-          <Parallax opacity={[0, 1]} startScroll={200} endScroll={800}>
-            <p className="section-subtitle-small xl:section-subtitle">
-              {sections.journey?.subtitle}
-            </p>
-          </Parallax>
+          <div className="section-subtitle-small text-right xl:section-subtitle flex-row">
+            <div id="next-section-anchor" />
+            <p classname="w-2/3 inline-block">{sections.journey?.subtitle}</p>
+          </div>
         </div>
         <div className="parallax-container pt-10 pl-8 xl:pl-0 xl:pr-5">
-          <Parallax opacity={[0, 1]} startScroll={200} endScroll={800}>
-            <p className="section-subtitle-small xl:section-subtitle mt-0 ">
+          <div className="section-subtitle-small xl:section-subtitle mt-0 flex-row">
+            <p className="w-2/3 align-top inline-block mb-5">
               {sections.journey?.subtitleOpt}
             </p>
-          </Parallax>
+            <Image
+              src={sections.journey?.images[1].source}
+              className="inline-block align-top"
+              alt="journey image b"
+              width={200}
+              height={200}
+            />
+          </div>
         </div>
 
         <div className="parallax-container"></div>
         <div className="parallax-container mt-5">
-          <Parallax>
-            <CTA text={sections.journey?.cta} href={socialData.linkedin} />
-          </Parallax>
+          <CTA text={sections.journey?.cta} href={socialData.linkedin} />
         </div>
       </div>
     </div>

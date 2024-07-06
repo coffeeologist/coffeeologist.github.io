@@ -2,11 +2,11 @@
   "metadata": {
     "title": "amyliu portfolio",
     "description": "Amy Liu personal portfolio website",
-    "faviconSource": "/src/assets/images/favicon.png"
+    "faviconSource": "/images/favicon.ico"
   },
   "footer": {
-    "copyright": "Created by Amy Liu. All displayed photography and digital illustrations \u00a9 Amy Liu 2023.",
-    "lastUpdated": "May 02, 2023"
+    "copyright": "Created and designed by Amy Liu. All displayed photography and digital illustrations \u00a9 Amy Liu 2024.",
+    "lastUpdated": "July 05, 2024"
   },
   "socialData": {
     "linkedin": "http://linkedin.com/in/jiachenamyliu",
@@ -15,13 +15,13 @@
   },
   "skillGroups": {
     "frontend": {
-      "title": "Frontend stuff",
+      "title": "Frontend-related",
       "subtitle": "Like making this website from scratch",
       "skills": [
+        { "name": "Typescript" },
         { "name": "HTML" },
         { "name": "CSS" },
         { "name": "Javascript" },
-        { "name": "Typescript" },
         { "name": "React" },
         { "name": "Nextjs" },
         { "name": "Tailwind" }
@@ -30,121 +30,142 @@
     "backend": {
       "title": "Backend languages",
       "subtitle": "Always down to learn more",
-      "skills": [{ "name": "Java" }, { "name": "C" }, { "name": "Ruby" }]
+      "skills": [
+        { "name": "Java" },
+        { "name": "Ruby" },
+        { "name": "Python" },
+        { "name": "C" }
+      ]
     },
     "editor": {
-      "title": "Text editor",
-      "subtitle": "Vim keybindings on VScode deserves its own section",
+      "title": "IDE",
+      "subtitle": "Yes, Vim keybindings on VScode deserves its own section",
       "skills": [{ "name": "Vim" }, { "name": "VScode" }]
     },
     "general": {
-      "title": "General dev things",
+      "title": "Tools and frameworks",
       "subtitle": "I once gave a lecture on glob vs regex",
       "skills": [
         { "name": "Git" },
         { "name": "Github" },
+        { "name": "Splunk" },
+        { "name": "Presto" },
+        { "name": "Puppeteer" },
         { "name": "Regex" },
+        { "name": "AWS" },
         { "name": "Bash scripting" }
       ]
     },
     "language": {
-      "title": "Spoken languages",
+      "title": "Natural languages",
       "subtitle": "Does my 2 years of high school spanish count?",
       "skills": [
-        { "name": "English (native)" },
-        { "name": "Mandarin (native)" },
-        { "name": "Japanese (conversational)" }
+        { "name": "English" },
+        { "name": "Chinese (Mandarin)" },
+        { "name": "Japanese" }
       ]
     }
   },
   "sections": {
     "splash": {
       "title": "Hi! I'm Amy Liu",
-      "subtitle": "Full-stack software engineer, in pursuit of drawing cute illustrations, maintaining multilingual fluency, and consuming caffeine.",
+      "subtitle": "Full-stack software engineer, in pursuit of drawing cute illustrations, baking banana breads, and consuming copious amount of caffeine.",
       "cta": "Welcome to my little corner",
       "images": [{ "source": "/images/splash_a.png" }]
     },
     "journey": {
-      "title": "In the exciting journey so far",
-      "subtitle": "I graduated from Carnegie Mellon University in 2022 with a bachelors in computer science, and have interned at Amazon and Microsoft.",
-      "subtitleOpt": "Currently working at Stripe doing full-stack development on merchant support experience.",
+      "title": "In the exciting journey thus far...",
+      "subtitle": "I've interned with Amazon and Microsoft, before graduating from Carnegie Mellon University in 2022 with a B.S. in computer science and a minor in Japanese language.",
+      "subtitleOpt": "I'm currently working at Stripe, doing fullstack development on the Support Experiences team.",
       "cta": "Details on Linkedin",
       "images": [
         { "source": "/images/journey_a.png" },
-        { "source": "/images/journey_b.png" }
+        { "source": "/images/journey_b.png" },
+        { "source": "/images/graduation.gif" }
       ]
     },
     "skills": {
       "title": "Skills & tech stacks",
-      "subtitle": "Blah blah blllaaahh blahblah blllalalhbh albhbhal blbllahah blalah bh allhlbahlb alalhb",
-      "subtitleOpt": "with some spotlight projects to showcase",
+      "subtitle": "These are things I'm familiar with at the time of writing; the list has probably grown by now!",
+      "subtitleOpt": "and some hobby projects to showcase",
       "cta": "Details on Github",
       "images": [{ "source": "/images/skills_a.png" }]
     },
     "creatives": {
-      "title": "And here's my creative side",
-      "subtitle": "Blah blah blllaaahh blahblah blllalalhbh albhbhal blbllahah blalah bh allhlbahlb alalhb",
+      "title": "A peek into my creative side",
+      "subtitle": "",
       "images": [
         { "source": "/images/creatives_a.png" },
         {
-          "source": "/images/showcase_a.jpg",
-          "width": 144,
-          "height": 116,
-          "description": "Summer bunny"
+          "source": "/images/a_anniversary.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Illustration] Coworker's 3rd anniversary",
+          "startExpanded": false
         },
         {
-          "source": "/images/showcase_b.jpg",
-          "width": 562,
-          "height": 419,
-          "description": "An attempt at character design"
+          "source": "/images/a_balloon.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Illustration] Travelling the world"
         },
         {
-          "source": "/images/showcase_c.jpg",
-          "width": 211,
-          "height": 174,
-          "description": "Logo design"
+          "source": "/images/a_portfolio.jpg",
+          "width": 1000,
+          "height": 500,
+          "description": "[Illustration] Related to me",
+          "wide": true
         },
         {
-          "source": "/images/showcase_d.jpg",
-          "width": 501,
-          "height": 375,
-          "description": "All thematic illustrations on this page"
+          "source": "/images/a_raze.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Illustration] Gift to a Raze main"
         },
         {
-          "source": "/images/showcase_e.jpg",
-          "width": 276,
-          "height": 258,
-          "description": "wink \u2606"
+          "source": "/images/a_wink_selfie.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Illustration] wink \u2606"
         },
         {
-          "source": "/images/showcase_f.jpg",
-          "width": 274,
-          "height": 274,
-          "description": "Mochi cats, in all flavors"
+          "source": "/images/p_near_sunset.jpg",
+          "width": 1000,
+          "height": 500,
+          "description": "[Photography] A dash of sunset",
+          "wide": true,
+          "startExpanded": false
         },
         {
-          "source": "/images/showcase_g.jpg",
-          "width": 248,
-          "height": 318,
-          "description": "Portrait of my favorite mentor"
+          "source": "/images/p_bloom.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Photography] Cherry blossoms in bloom"
         },
         {
-          "source": "/images/sunset.jpg",
-          "width": 958,
-          "height": 718,
-          "description": "A dash of sunset, Photography"
+          "source": "/images/p_reflection.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Photography] It's all reflection",
+          "startExpanded": false
         },
         {
-          "source": "/images/bloom.jpg",
-          "width": 958,
-          "height": 718,
-          "description": "Spring in full swing, Photography"
+          "source": "/images/p_haystack.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Photography] My favorite rocks"
+        },
+        {
+          "source": "/images/p_moon.jpg",
+          "width": 500,
+          "height": 500,
+          "description": "[Photography] Umbral prelude"
         }
       ]
     },
     "hobbies": {
       "title": "When I'm head-empty,",
-      "subtitle": "I doodle cute bunnies, bake cakes & pastries, and become hardstuck gold in any game I play (TFT, Overwatch, Valorant). ",
+      "subtitle": "I like to doodle cute bunnies, bake banana breads and cookies, and become hardstuck gold in any game I play (TFT, Overwatch, Valorant).",
       "images": [{ "source": "/images/hobbies_a.png" }]
     },
     "contact": {

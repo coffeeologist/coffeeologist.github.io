@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer components {
-  .parallax-root {
+  .parallax-root,
+  .not-a-root {
     display: flex;
     align-content: flex-start;
     flex-flow: row wrap;
@@ -11,13 +12,13 @@
     align-items: center;
     vertical-align: middle;
     justify-content: center;
-    margin-bottom: 20%;
-    /* height: 100vh; */
+    /* margin-bottom: 20%; */
+    margin-bottom: 30vh;
   }
 
   .parallax-container {
     justify-content: center;
     position: relative;
-    width: 70vh;
+    width: 80vh;
   }
 }

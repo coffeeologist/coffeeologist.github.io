@@ -60,4 +60,6 @@ export type ImageSource = {
   width?: number
   height?: number
   description?: string
+  wide?: boolean
+  startExpanded?: boolean
 }
